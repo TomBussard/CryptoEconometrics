@@ -10,8 +10,9 @@ Analyse économétrique des dynamiques entre la volatilité du marché des crypt
 - **Données** : Téléchargez les données nécessaires depuis le lien fourni ou utilisez les fichiers fournis.
 
 ## Installation et Exécution
-1. Ouvrez le fichier RMarkdown principal dans RStudio : `CryptoEconometrics.Rmd`.
-2. Assurez-vous d'avoir tous les packages installés. Utilisez cette commande pour installer les packages manquants :
+1. Ouvrez le fichier RMarkdown principal dans RStudio : `CryptoEconometrics.Rmd`.  
+2. Placez tous les fichiers de données nécessaires (comme `tether_market_dominance.xlsx`) dans le **même dossier** que le fichier RMarkdown.  
+3. Assurez-vous d'avoir tous les packages installés. Utilisez cette commande pour installer les packages manquants :  
    ```R
    install.packages(c("ggplot2", "dplyr", "readxl", "forecast", "vars", "tseries"))
    ```
